@@ -27,12 +27,17 @@ body {
   text-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
 }
 
+#logo {
+  height: 160px;
+  margin-left: -15px;
+}
+
 .hover-expand {
   transition: all 0.2s ease;
   cursor: default;
 }
 .hover-expand:hover {
-  transform: scale(1.02) rotateX(1deg);
+  box-shadow: 0 0 0 20px #fff, 5px 15px 30px 20px rgba(0, 0, 0, 0.05);
 }
 
 .hover-underline {
@@ -53,8 +58,15 @@ body {
   width: 100%;
 }
 
-.icon {
+.icon,
+#logo,
+.qrcode {
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2));
+}
+
+#logo,
+.qrcode {
+  mix-blend-mode: lighten;
 }
 
 .container {
@@ -81,7 +93,7 @@ body {
   margin: 2em;
   padding: 2em;
   border-radius: 2em;
-  box-shadow: 5px 10px 0 20px #fff, 5px 15px 30px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 8px #fff, 5px 15px 30px 20px rgba(0, 0, 0, 0.05);
 }
 
 .card-title {
@@ -112,8 +124,7 @@ body {
 
 .card-body p {
   line-height: 1.5em;
-  font-weight: 600;
-  text-align: justify;
+  font-weight: 300;
 }
 
 section {
@@ -122,7 +133,6 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  perspective: 2000px;
 }
 
 section .column {
@@ -145,6 +155,10 @@ h1 {
 
 h1 small {
   font-size: 60%;
+}
+
+h6 {
+  font-size: 0.8em;
 }
 
 h1,
@@ -181,22 +195,22 @@ h6::selection {
   background: black;
 }
 
-.bg-pink {
+.bg-blue {
   background: #4776e6;
   background: linear-gradient(to top, #8e54e9, #4776e6);
-  background-attachment: fixed;
+  // background-attachment: fixed;
 }
 
 .bg-red {
   background: #cb2d3e;
   background: linear-gradient(to bottom, #ef473a, #cb2d3e);
-  background-attachment: fixed;
+  // background-attachment: fixed;
 }
 
 .bg-cyan {
   background: #1cd8d2;
-  background: linear-gradient(to top, #93edc7, #1cd8d2);
-  background-attachment: fixed;
+  background: linear-gradient(to bottom, #93edc7, #1cd8d2);
+  // background-attachment: fixed;
 }
 
 @media screen and (max-width: 360px) {

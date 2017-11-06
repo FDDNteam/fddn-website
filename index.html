@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="normalize.min.css"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
-<body class="bg-red">
-  <div class="container">
+<body class="bg-blue">
+  <div class="container bg-blue">
     <div class="hero">
-      <object type="image/svg+xml" data="assets/dog.svg" class="icon icon-dog"></object>
+      <!-- <img src="assets/dog.svg" class="icon icon-dog"/> -->
+
+      <img src="assets/logo.png" id="logo"/>
 
       <h1><a class="hover-underline" href="/">Fudan Developer Network</a></h1>
       <h1><small>复旦开发者网络</small></h1>
@@ -33,7 +35,7 @@
         </div>
 
         <div class="card hover-expand">
-          <a href="#">
+          <a href="javascript:void(0);">
             <h2 class="card-title hover-underline">Wiki<img src="assets/link.svg"/></h2>
             <div class="card-body">
               <object type="image/svg+xml" data="assets/wiki.svg" class="icon"></object>
@@ -46,7 +48,7 @@
 
       <div class="column">
         <div class="card hover-expand">
-          <a href="#">
+          <a href="javascript:void(0);">
             <h2 class="card-title hover-underline">GitHub<img src="assets/link.svg"/></h2>
             <div class="card-body">
               <object type="image/svg+xml" data="assets/github.svg" class="icon"></object>
@@ -56,11 +58,12 @@
         </div>
 
         <div class="card hover-expand">
-          <a href="#">
+          <a href="javascript:void(0);">
             <h2 class="card-title hover-underline">微信<img src="assets/link.svg"/></h2>
             <div class="card-body">
               <object type="image/svg+xml" data="assets/wechat.svg" class="icon"></object>
               <p>关注 FDDN</p>
+              <img class="qrcode" src="assets/wechat.jpg"/>
             </div>
           </a>
         </div>
