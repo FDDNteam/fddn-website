@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+    <svg t="1539159055429"
+    class="icon" style="background-color: #9fc1ff;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3058"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+    <defs>
+        <style type="text/css"></style>
+    </defs>
+    <path d="M479.725946 192.32426h63.96073v703.567014h-63.96073z" p-id="3059" fill="#ffffff"></path>
+    <path d="M159.922293 512.12689h703.567013v63.960731H159.922293z" p-id="3060" fill="#ffffff"></path>
+    <path d="M511.706311 192.069457m-31.980365 0a31.980365 31.980365 0 1 0 63.96073 0 31.980365 31.980365 0 1 0-63.96073 0Z"
+        p-id="3061" fill="#ffffff"></path>
+    <path d="M863.489306 544.107255m-31.980365 0a31.980365 31.980365 0 1 0 63.960731 0 31.980365 31.980365 0 1 0-63.960731 0Z"
+        p-id="3062" fill="#ffffff"></path>
+    <path d="M511.706311 895.891274m-31.980365 0a31.980365 31.980365 0 1 0 63.96073 0 31.980365 31.980365 0 1 0-63.96073 0Z"
+        p-id="3063" fill="#ffffff"></path>
+    <path d="M159.922293 544.107255m-31.980366 0a31.980365 31.980365 0 1 0 63.960731 0 31.980365 31.980365 0 1 0-63.960731 0Z"
+        p-id="3064" fill="#ffffff"></path>
+</svg>

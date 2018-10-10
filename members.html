@@ -5,8 +5,8 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Members | FDDN</title>
-	<meta name="description" content="Fudan Developer Network.">
-	<link href='http://fonts.font.im/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <meta name="description" content="Fudan Developer Network.">
+  <link href='http://fonts.font.im/css?family=Cardo:400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
 	<link rel="stylesheet" href="style.css" />
 	<style>
@@ -22,9 +22,11 @@
 			background-color: #02b875;
 		}
 		.bg-behance {
-			/* background-color: #9fc1ff; */
 			background-color: #1769ff;
 		}
+    .bg-light-behance {
+      background-color: #9fc1ff;
+    }
 		.bg-facebook {
 			/* background-color: #acc0e9; */
 			background-color: #3b5998;
@@ -41,7 +43,7 @@
 		.bg-blogger {
 			background-color: #f57d00;
 		}
-		.bg-pinterest {
+		.bg-light-pinterest {
 			background-color: #ff97a3;
 			/* background-color: #bd081c; */
 		}
@@ -56,14 +58,21 @@
 			height: 5rem;
 			box-sizing: border-box;
 		}
-		.font-dance {
-			font-family: 'Dancing Script', cursive;
+		.font-cardo {
+      font-family: 'Cardo', serif;
 		}
 	</style>
 </head>
 <body class="bg-blue">
 	<div class="bg bg-blue"></div>
 	<div class="container">
+
+      <div class="hero">
+        <img src="assets/logo.png" id="logo"/>
+  
+        <h1><a class="hover-underline" href="/">Fudan Developer Network</a></h1>
+        <h1><small>复旦开发者网络</small></h1>
+      </div>
 
 		<section>
 			<div class="column">
@@ -72,7 +81,7 @@
 						<img src="https://avatars1.githubusercontent.com/u/3676859?s=400&v=4" class="br-pill avatar ba bw3 shadow-2" />
 					</div>
 					<div class="bg-white h5 overflow-hidden tc">
-						<h3 class="font-dance dark-gray mt5">Shu Ding</h3>
+						<h3 class="font-cardo dark-gray mt5">Shu Ding</h3>
 					</div>
 				</div>
 
@@ -81,7 +90,7 @@
 						<img src="https://avatars3.githubusercontent.com/u/6358939?s=400&v=4" class="br-pill avatar ba bw3 shadow-2" />
 					</div>
 					<div class="bg-white h5 overflow-hidden tc">
-						<h3 class="font-dance dark-gray mt5">Sherwood Wang</h3>
+						<h3 class="font-cardo dark-gray mt5">Sherwood Wang</h3>
 					</div>
 				</div>
 
@@ -90,7 +99,7 @@
 						<img src="https://avatars3.githubusercontent.com/u/10218146?s=400&v=4" class="br-pill avatar ba bw3 shadow-2" />
 					</div>
 					<div class="bg-white h5 overflow-hidden tc">
-						<h3 class="font-dance dark-gray mt5">Zero Slope</h3>
+						<h3 class="font-cardo dark-gray mt5">Zero Slope</h3>
 					</div>
 				</div>
 
@@ -102,7 +111,7 @@
 						<img src="https://avatars2.githubusercontent.com/u/8433465?s=400&v=4" class="br-pill avatar ba bw3 shadow-2" />
 					</div>
 					<div class="bg-white h5 overflow-hidden tc">
-						<h3 class="font-dance dark-gray mt5">Dragonly</h3>
+						<h3 class="font-cardo dark-gray mt5">Dragonly</h3>
 					</div>
 				</div>
 
@@ -111,16 +120,16 @@
 						<img src="https://avatars2.githubusercontent.com/u/22720633?s=400&v=4" class="br-pill avatar ba bw3 shadow-2" />
 					</div>
 					<div class="bg-white h5 overflow-hidden tc">
-						<h3 class="font-dance dark-gray mt5">Vivien Wei</h3>
+						<h3 class="font-cardo dark-gray mt5">Vivien Wei</h3>
 					</div>
 				</div>
 
 				<div class="card-no-shadow">
-					<div class="w-100 h4 bg-pinterest">
+					<div class="w-100 h4 bg-light-pinterest">
 						<img src="https://avatars2.githubusercontent.com/u/22938581?s=400&v=4" class="br-pill avatar ba bw3 shadow-2" />
 					</div>
 					<div class="bg-white h5 overflow-hidden tc">
-						<h3 class="font-dance dark-gray mt5">Svlic</h3>
+						<h3 class="font-cardo dark-gray mt5">Svlic</h3>
 					</div>
 				</div>
 			</div>
@@ -131,7 +140,7 @@
 						<img src="https://avatars1.githubusercontent.com/u/5001225?s=400&v=4" class="br-pill avatar ba bw3 shadow-2" />
 					</div>
 					<div class="bg-white h5 overflow-hidden tc">
-						<h3 class="font-dance dark-gray mt5">Linghao Zhang</h3>
+						<h3 class="font-cardo dark-gray mt5">Linghao Zhang</h3>
 					</div>
 				</div>
 
@@ -140,9 +149,18 @@
 						<img src="https://avatars2.githubusercontent.com/u/22728498?s=400&v=4" class="br-pill avatar ba bw3 shadow-2" />
 					</div>
 					<div class="bg-white h5 overflow-hidden tc">
-						<h3 class="font-dance dark-gray mt5">YilinYan</h3>
+						<h3 class="font-cardo dark-gray mt5">YilinYan</h3>
 					</div>
-				</div>
+        </div>
+        
+        <div class="card-no-shadow">
+          <div class="w-100 h4 bg-light-behance">
+            <img src="assets/plus.svg" class="br-pill avatar ba bw3 shadow-2" />
+          </div>
+          <div class="bg-white h5 overflow-hidden tc">
+            <h3 class="font-cardo dark-gray mt5">Join us!</h3>
+          </div>
+        </div>
 			</div>
 
 		</section>
